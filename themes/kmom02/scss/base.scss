@@ -1,0 +1,39 @@
+
+body {
+    background-color: $background-color;
+}
+
+img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.design-div {
+    display: flex;
+
+    .design-paragraph {
+        color: #333;
+        font-size: 1.4em;
+        line-height: 1.4em;
+        margin: 1.82rem auto;
+        width: 64rem;
+    }
+}
+
+.header {
+    background-color: #daa520;
+}
+
+.footer {
+    background-color: rgb(0, 186, 12);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.social {
+    padding-bottom: 20px;
+}
