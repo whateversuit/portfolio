@@ -6,9 +6,11 @@
     text-align: center; 
     
 }
+
 .landingpage h1 {
     grid-column: span 3;
 }
+
 .landingpage :not(:first-child) {
     border: 1px solid #e1e1e1;
     padding: 20px;
@@ -24,12 +26,10 @@
 
 .landingpage > h1:first-child {
     font-size: 2em;
-    background-color: white;
+    background-color: #fff;
     border-bottom: 4px solid rgb(113, 243, 121);
 
 }
-
-
 
 .box-html {
     grid-column: span 2;
@@ -50,6 +50,7 @@
     grid-column: span 2;
     
 }
+
 .box-css {
     grid-column: span 1;
     
@@ -74,6 +75,7 @@
     margin: 0 auto;
     
 }
+
 .tech-menu {
     width: 30%;
 
@@ -82,18 +84,18 @@
 .tech-content {
     width: 60%;
 
-
 }
+
 @media (max-width: 960px) {
-        .tech-menu {
+    .tech-menu { 
         display: none;
     }
 }
 
 @media screen and (max-width: 960px) {
-        .landingpage {
-            display: block;
-            width: 80%;
-            overflow: auto;
+    .landingpage {
+        display: block;
+        width: 80%;
+        overflow: auto;
     }
 }
