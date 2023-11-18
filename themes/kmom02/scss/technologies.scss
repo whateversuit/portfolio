@@ -1,0 +1,99 @@
+.landingpage {
+    display: grid;
+    gap: 1rem 2rem;
+    width: 64rem;
+    margin: 0 auto;
+    text-align: center; 
+    
+}
+.landingpage h1 {
+    grid-column: span 3;
+}
+.landingpage :not(:first-child) {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    font-family: $main-font;
+    background-color: rgb(252, 252, 220);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.landingpage :not(:first-child):hover {
+    background-color: rgb(255, 255, 164);
+}
+
+.landingpage > h1:first-child {
+    font-size: 2em;
+    background-color: white;
+    border-bottom: 4px solid rgb(113, 243, 121);
+
+}
+
+
+
+.box-html {
+    grid-column: span 2;
+    
+}
+
+.box-python {
+    grid-column: span 3;
+    
+}
+
+.box-sqlite {
+    grid-column: span 2;
+    
+}
+
+.box-javascript {
+    grid-column: span 2;
+    
+}
+.box-css {
+    grid-column: span 1;
+    
+}
+
+.box-git {
+    grid-column: span 1;
+    
+}
+
+.box-php {
+    grid-column: span 1;
+    
+}
+
+.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.tech-menu {
+    width: 30%;
+
+}
+
+.tech-content {
+    width: 60%;
+
+
+}
+@media (max-width: 960px) {
+        .tech-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+        .landingpage {
+            display: block;
+            width: 80%;
+            overflow: auto;
+    }
+}
