@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display&family=Roboto&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -6425,8 +6426,8 @@ readers do not read off random characters that represent icons */
 body {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
-  color: black;
+  background-color: #333;
+  color: #fff;
   min-height: 100vh;
 }
 
@@ -6442,7 +6443,7 @@ body {
   border-bottom: 1px solid #333;
 }
 .design-div .design-paragraph {
-  color: black;
+  color: #fff;
   font-size: 1.4em;
   line-height: 1.4em;
   margin: 1.82rem auto;
@@ -6451,11 +6452,11 @@ body {
 }
 
 .header {
-  background-color: #daa520;
+  background-color: #711C91;
 }
 
 .footer {
-  background-color: rgb(0, 184, 12);
+  background-color: #0ABDC6;
   bottom: 0;
   color: white;
   left: 0;
@@ -6504,7 +6505,7 @@ a {
 
 li a:hover {
   border-bottom: 5px solid;
-  border-block-end-color: #ffe100;
+  border-block-end-color: #EA00D9;
 }
 
 .nav ul {
@@ -6513,17 +6514,17 @@ li a:hover {
 }
 
 .nav a {
-  color: black;
+  color: #fff;
 }
 
 p {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .landingpage {
@@ -6541,7 +6542,7 @@ h3 {
 .landingpage :not(:first-child) {
   border: 1px solid #e1e1e1;
   padding: 20px;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   background-color: rgb(252, 252, 220);
   font-size: 1.1rem;
   font-weight: 600;
