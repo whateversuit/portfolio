@@ -49,6 +49,7 @@ body {
     width: 100%;
     top: auto;
     margin-top: auto;
+    padding-top: 20px;
 }
 
 .social {
@@ -111,3 +112,33 @@ li a:hover {
     color: $text-color;
     font-family: $main-font;
 }
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+
+
+
+.omni-analysis {
+    height: 400px;
+    width: 400px;
+}
+.reddit-analysis {
+    height: 150px;
+    width: 250px;
+}
+.youtube-analysis {
+    height: 150px;
+    width: 300px;
+}
+
+
+
+.sheet-container {
+    height: 200px;
+    width: 100%;
+}
+
+
+

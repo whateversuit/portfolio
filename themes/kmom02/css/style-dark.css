@@ -6465,6 +6465,7 @@ body {
   width: 100%;
   top: auto;
   margin-top: auto;
+  padding-top: 20px;
 }
 
 .social {
@@ -6501,6 +6502,7 @@ img.youtube {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 li a:hover {
@@ -6515,6 +6517,31 @@ li a:hover {
 
 .nav a {
   color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+.omni-analysis {
+  height: 400px;
+  width: 400px;
+}
+
+.reddit-analysis {
+  height: 150px;
+  width: 250px;
+}
+
+.youtube-analysis {
+  height: 150px;
+  width: 300px;
+}
+
+.sheet-container {
+  height: 200px;
+  width: 100%;
 }
 
 p {
@@ -6543,19 +6570,19 @@ h3 {
   border: 1px solid #e1e1e1;
   padding: 20px;
   font-family: "Roboto", sans-serif;
-  background-color: rgb(252, 252, 220);
+  background-color: #333;
   font-size: 1.1rem;
   font-weight: 600;
 }
 
 .landingpage :not(:first-child):hover {
-  background-color: rgb(255, 255, 164);
+  background-color: #EA00D9;
 }
 
 .landingpage > h1:first-child {
   font-size: 2em;
-  background-color: #fff;
-  border-bottom: 4px solid rgb(113, 243, 121);
+  background-color: #333;
+  border-bottom: 4px solid #EA00D9;
 }
 
 .box-html {
@@ -6614,4 +6641,46 @@ h3 {
     width: 80%;
     overflow: auto;
   }
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+}
+
+.gallerybox {
+  text-align: center;
+  padding: 20px;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videocontainer {
+  padding: 50px;
 }
