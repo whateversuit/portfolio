@@ -30,7 +30,7 @@ Testerna på reddit.com visar ett medel på ungefär 6 sekunder laddningstid. St
 
 <img class ="youtube-analysis" src="../image/youtube.png" alt="">
 
-Testerna på reddit.com visar ett medel på ungefär 1 sekund laddningstid. Storleken på sidan som laddades in var 16.48MB och performance för desktop-sidan var 42 och mobil visade 33. Antal requests var 196.
+Testerna på youtube.com visar ett medel på ungefär 1 sekund laddningstid. Storleken på sidan som laddades in var 16.48MB och performance för desktop-sidan var 42 och mobil visade 33. Antal requests var 196.
 Se nedan tabell för detaljerade mätningar.
 
 
@@ -56,7 +56,7 @@ Förslag till förbättringar:
 Minska bildstorlekar och ladda in inehållet före annonser då alla dessa tre är ganska annonstunga. Reducera och optimera javascript-kod.
 
 Mitt personliga gränsvärde ligger någonstans runt 2-3 sekunder. Det är nästan ett "krav" att sidorna i alla fall hinner visa något innehåll innan den tiden. Detta är viktigt för att användaren inte direkt ska klicka sig ur. Laddas bara annonser in har vi ett problem. 
-Alla sidor uppfyller mitt krav även om både reddit och omni har 5 sekunder. Inehåll laddas in i olika takt här vilket gör att det fungerar. Upplevelsen blir OK till bra på dessa sidor. 
+Alla sidor uppfyller mitt krav även om både reddit och omni har 5 sekunder. Innehåll laddas in i olika takt här vilket gör att det fungerar. Upplevelsen blir OK till bra på dessa sidor. 
 
 Referenser
 -----------------------
